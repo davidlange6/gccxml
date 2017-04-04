@@ -108,7 +108,7 @@ hash (register const char *str, register unsigned int len)
 #ifdef __GNUC__
 __inline
 #endif
-const char *
+static const char *
 libc_name_p (register const char *str, register unsigned int len)
 {
   enum
